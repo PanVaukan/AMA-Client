@@ -1,0 +1,43 @@
+﻿Build started 21.06.2018 10:44:21.
+     1>Project "C:\Users\Engineer\documents\visual studio 2010\Projects\Client\Client\Client.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\Client.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\Client.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt sources\CheckConditions.cpp sources\Client.cpp sources\DataProcessing.cpp sources\MySQLServer.cpp sources\SearchOptions.cpp sources\SystemSettings.cpp
+         CheckConditions.cpp
+         Client.cpp
+     1>sources\Client.cpp(83): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : see declaration of 'getch'
+         DataProcessing.cpp
+     1>sources\DataProcessing.cpp(206): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+         MySQLServer.cpp
+         SearchOptions.cpp
+         SystemSettings.cpp
+     1>sources\SystemSettings.cpp(194): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>sources\SystemSettings.cpp(232): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>sources\SystemSettings.cpp(301): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>sources\SystemSettings.cpp(377): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+     1>sources\SystemSettings.cpp(606): warning C4244: 'initializing' : conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Engineer\documents\visual studio 2010\Projects\Client\Release\Client.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Engineer\documents\visual studio 2010\Projects\Client\Release\Client.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Engineer\documents\visual studio 2010\Projects\Client\Release\Client.lib" /MACHINE:X86 Release\CheckConditions.obj
+         Release\Client.obj
+         Release\DataProcessing.obj
+         Release\MySQLServer.obj
+         Release\SearchOptions.obj
+         Release\SystemSettings.obj
+         libs\libmysql.lib
+         Generating code
+         Finished generating code
+         Client.vcxproj -> C:\Users\Engineer\documents\visual studio 2010\Projects\Client\Release\Client.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Engineer\documents\visual studio 2010\Projects\Client\Release\Client.exe;#1" /manifest Release\Client.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Client.unsuccessfulbuild".
+         Touching "Release\Client.lastbuildstate".
+     1>Done Building Project "C:\Users\Engineer\documents\visual studio 2010\Projects\Client\Client\Client.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.01
